@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="HTMLPage.htm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="HTMLPage1.htm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="HTMLPage2.htm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="HTMLPage3.htm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="HTMLPage4.htm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="HTMLPage5.htm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="HTMLPage6.htm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="HTMLPage7.htm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="HTMLPage8.htm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="HTMLPage9.htm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="HTMLPage10.htm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="HTMLPage11.htm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="HTMLPage12.htm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="HTMLPage13.htm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="HTMLPage14.htm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="HTMLPage15.htm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="edit.css">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="StyleSheet.css">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="css file.css">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="FILE.html">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="make up.html">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="StyleSheet1.css">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="d1.html">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="d2.html">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="d3.html">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="d4.html">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="d5.html">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="d6.html">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="d7.html">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="d8.html">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="d9.html">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="d10.html">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="dresses.html">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="DESGIN.css">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="StyleSheet2.css">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="home.html">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="face1.html">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="face2.html">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="face3.html">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="face4.html">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="eyes1.html">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="eyes2.html">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="eyes3.html">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="eyes4.html">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="lips1.html">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="lips2.html">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="lips3.html">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="lips4.html">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="lips5.html">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="perfum1.html">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="perfum2.html">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="perfum3.html">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="perfum4.html">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="perfum5.html">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="admin.htm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="start.htm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="1.html">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="admin.html">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="admin.js">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

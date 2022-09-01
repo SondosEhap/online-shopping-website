@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(248, 176, 238);
+    border-bottom: crimson;
+    border-top-width: 30px;
+    background-image: url(m2.gif);
+ 
+}
+h2 {
+    margin-top : 2px ;
+    font-size: 50px;
+    text-align: center;
+}

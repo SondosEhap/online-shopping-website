@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+      <title>Drop down menu</title>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+</head>    
+
+           
+
+<style> 
+    .container {
+        width: 1450px;
+        margin: auto;
+    }
+
+    nav {
+        background-color: rgba(248, 161, 202, 0.979);
+    }
+    .navbar-links{
+        float : right ;
+    }
+
+    header {
+        background-color: rgba(248, 161, 202, 0.979);
+        color: rgb(250, 247, 245);
+        padding: lem;
+        font-family: sans-serif;
+        text-align: center;
+    }
+
+    ul.navbar-links {
+        list-style: circle;
+        margin: 0;
+        background-color: rgb(252, 162, 192);
+        color: rgb(247, 242, 239);
+        display: flex;
+        justify-items: left ;
+        align-items: left;
+        background-color: rgb(252, 181, 228);
+        position:center ;
+    }
+
+    li {
+        /* float:right;*/
+    }
+
+        li a {
+            display: block;
+            color: rgb(247, 247, 240);
+            text-align: center;
+            padding: 0.5rem 0.5rem;
+            text-decoration: dotted;
+        }
+
+            li a:hover {
+                background-color: rgb(238, 179, 250);
+            }
+
+    footer {
+        background-color: rgb(243, 113, 154);
+        color: rgb(255, 255, 255);
+        padding: 00.7rem;
+        text-align: center;
+    }
+
+    .dropdown {
+        position: relative;
+        padding: 0.5rem 0.5rem;
+    }
+
+        .dropdown .d-down-links {
+            position: absolute;
+            padding: 0 20px;
+            top: 35px;
+            right: 50;
+            width: 95px;
+            height: 135px;
+            background-color: rgb(248, 161, 205);
+            list-style: circle;
+            display: none;
+            transition: all .3s ease-in-out;
+        }
+
+        .dropdown:hover .d-down-links {
+            display: block;
+        }
+
+        .dropdown:hover {
+            background-color: rgb(241, 188, 252);
+        }
+
+    .menu-item {
+        display: inline-block;
+        padding: 15px 20px;
+        height: 30px;
+        line-height: 30px;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .navbar-links {
+        float: right;
+    }
+
+    .sub-content {
+        position: absolute;
+        top: 60px;
+        overflow: hidden;
+        background-color: cadetblue;
+        max-height: 0;
+    }
+
+        .sub-content a {
+            color: rgb(230, 130, 130);
+            text-decoration: none;
+        }
+
+    .sub-drop {
+        padding: 0;
+    }
+
+        .sub-drop ul {
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+
+            .sub-drop ul li a {
+                display: inline-block;
+                padding: 10px 20px;
+            }
+
+    .menu-item :focus {
+        background-color: #000;
+    }
+
+    .menu ul li :hover .sub-content {
+        max-height: 400px;
+        transition: max-height 0.3s ease-in;
+        -webkit-transition: max-height 0.3s ease-in;
+        -moz-transition: max-height 0.3s ease-in;
+    }
+
+    .nav-menu ul li :hover > ul {
+        display: inline-block;
+    }
+   
+
+    </style>
+
+    <header >
+    <h1 > Welcome To Our Wepsite </h1 >
+    <h2 > Here All You Need</h2 >
+    </header >
+    <body >
+
+    <nav class="menu" alegin="left" >
+    <div class="container" >
+    <ul class="navbar-links" >
+    <li > <a class="menu-item" href="file:///C:/Users/%D8%B3%D8%AE%D9%89%D8%BA/source/repos/online%20shopping/online%20shopping/FILE.html" > Log Out</a > </li >
+    <li > <a class="menu-item" href="#" > Admin</a > </li >
+    <li class="dropdown" >
+    Contact Us
+    <ul class="d-down-links" >
+    <li > <a href="https://www.facebook.com" > Facebook</a > </li >
+    <li > <a href="https://www.instagram.com" > Instagram</a > </li >
+    <li > <a href="https://www.google.com" > Google</a > </li >
+    </ul >
+    </li >
+    </ul >
+    </div >
+    </nav >
+
+
+
+    
+
+
+    <footer >
+    All Rights Reserved.
+    </footer >
+
+    </body >
+    </html >

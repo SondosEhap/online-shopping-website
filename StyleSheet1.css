@@ -1,0 +1,91 @@
+header {
+    background-color: rgba(248, 161, 202, 0.979);
+    color: rgb(250, 247, 245);
+    padding: lem;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(250, 116, 161);
+}
+
+li {
+    float: right;
+}
+
+    li a {
+        display: block;
+        color: rgb(247, 247, 240);
+        text-align: center;
+        padding: 0.7rem 0.7rem;
+        text-decoration: none;
+    }
+
+        li a:hover {
+            background-color: rgb(35, 5, 41);
+        }
+
+footer {
+    background-color: rgb(247, 191, 209);
+    color: rgb(255, 255, 255);
+    padding: 00.7rem;
+    text-align: center;
+}
+
+.menu > ul > li {
+    float: left;
+}
+
+.menu-item {
+    display: inline-block;
+    padding: 15px 20px;
+    height: 30 px;
+    line-height: 30 px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.sub-content {
+    position: absolute;
+    top: 60px;
+    overflow: hidden;
+    background-color: cadetblue;
+    max-height: 0;
+}
+
+    .sub-content a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+.sub-drop {
+    padding: 0;
+}
+
+    .sub-drop ul {
+        width: 10%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+        .sub-drop ul li a {
+            display: inline-block;
+            padding: 10px 20px;
+        }
+
+.menu-item :focus {
+    background-color: #000;
+}
+
+    .menu-item :focus ~ .sub-content {
+        max-height: 400px;
+        transition: max - height 0.3s ease-in;
+        -webkit-transition: max - height 0.3s ease-in;
+        -moz-transition: max -height 0.3s ease-in;
+    }

@@ -1,0 +1,93 @@
+<HTML>
+
+    <HEAD>
+    
+        <TITLE>Online Shopping</TITLE>
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="style.css ">
+    </HEAD>
+    
+    <style>
+        tr:hover {background-color: rgb(240, 248, 251);}
+         td{text-align: left;}
+       </style>
+       
+    <BODY align="center" font size="+2">
+        <img src="124.jpg" width="150px"
+            hight="150px" /> <br /> <br /> <br />
+    
+    
+        <table align="center" width="90%" border="1" cellspacing="15" cellpadding="20">
+            <tr>
+                <th colspan="2">
+                    Eyes Product
+                </th>
+            </tr>
+            <tr>
+                <td align="left">
+                    type
+                </td>
+                <td align="left">
+                    Eye Concealer
+                    </td">
+            </tr>
+            <tr>
+                <td align="left">
+                    price
+                </td>
+                <td align="left">
+                    108$ <del>135$</del>
+                    </td">
+            </tr>
+            <tr>
+                <td align="left">
+                    Brand
+                </td>
+                <td align="left">
+                    Maybelline New York Fit Me Eye Concealer - 0.23 oz., 10 Light
+    
+                    </td">
+            </tr>
+            <tr>
+                <td align="left">
+                    Description
+                </td>
+                <td align="left">
+                    With the Maybelline New York Fit Me Concealer, you can achieve excellent results in making your skin
+                    look flawless. It has a creamy consistency and swiftly spreads across your skin surface covering all the
+                    imperfections on it. The concealer comes with a firm tip brush that helps apply the concealer with ease
+                    and in one go. The Maybelline Fit Me Concealer is created with a ...
+                    </td">
+            </tr>
+        </table>
+        <input type="button" value="buy it" onclick="buy()" />
+        <script>
+    
+            function buy() {
+    
+                var y = window.confirm("Are you sure to buy the product ? ")
+                if (y == true) {
+    
+    
+                    prompt("please enter your phone ", "number",);
+    
+    
+                    alert("We Will Call You")
+    
+                }
+                else {
+                    alert("We Are Always At Your Service")
+    
+                }
+            }
+    
+    
+    
+        </script>
+        <script src="main.js"></script>
+        <script src="home.js"></script>
+    
+    
+    </BODY>

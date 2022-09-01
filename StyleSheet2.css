@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #f2f2f2;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.container {
+    margin-top: 20px;
+    margin-left: 250px;
+}
+
+    .container ul {
+        list-style: none;
+    }
+
+        .container ul li {
+            width: 150px;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            background: #8E44AD;
+            color: cornsilk;
+            float: left;
+            border: 1px solid #FFF;
+        }
+
+        .container ul ul {
+            display: none;
+        }
+
+        .container ul li :hover > UL {
+            display: block;
+        }

@@ -1,0 +1,97 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <link rel="stylesheet" href="css file.css" />
+
+    <script>
+        function passvalues() {
+            var username = document.getElementById("txt").value;
+            localStorage.setItem("text", username);
+            return false;
+        }
+    </script>
+    <style>
+        .loginbox {
+            font-size: 40px;
+            text-align: center;
+            color: rgb(128, 0, 128);
+            font-style: oblique;
+        }
+
+        h2 {
+            font-size: 50px;
+            color: rgb(128, 0, 128);
+            font-style: italic;
+        }
+
+        .bttn {
+            border: rgb(128, 0, 128);
+            color: white;
+            background-color: rgb(128, 0, 128);
+            font-size: large;
+            font-style: italic;
+            padding: 30px;
+            border-radius: 6px;
+            transition: all 0.5s;
+        }
+        
+
+            .bttn:hover {
+                border: rgb(red, green, blue);
+                color: rgb(128, 0, 128);
+                background-color: rgb(247, 247, 249);
+                font-size: large;
+                font-style: italic;
+                padding: 20px;
+                border-radius: 6px;
+                transition: all 0.5s;
+            }
+
+        #txt, #pass {
+            border-style: outset;
+            border-radius: 5px;
+            border-color: rgb(128, 0, 128);
+            font-size:large;
+            font-style: italic;
+            color: rgb(128, 0, 128);
+        }
+
+        p, label {
+            color: rgb(128, 0, 128);
+            font-family:'Courier New', Courier, monospace ;
+            
+        }
+    </style>
+
+    <title>Login form </title>
+
+    <h2> online shopping</h2>
+</head>
+<body>
+
+    <div class="loginbox">
+
+        <h3 class="login">login</h3>
+
+        <form action="home.html">
+            <p>
+                <label><b>UserName</b></label>
+                <input id="txt" type="text" placeholder="user name" minlength="5" maxlength="10" required="required">
+            </p>
+            <p></p> <label><b>Password</b></label>
+            <input id="pass" type="password" placeholder="password" minlength="5" maxlength="10" required="required"></p>
+
+
+            <input class="bttn" onclick="passvalues();" type="Submit" value="LOG IN">
+        </form>
+
+
+    </div>
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,91 @@
+<HTML>
+
+<HEAD>
+
+    <TITLE>Online Shopping</TITLE>
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="style.css ">
+</HEAD>
+<style>
+    tr:hover {background-color: rgb(240, 248, 251);}
+     td{text-align: left;}
+   </style>
+<BODY align="center" font size="+2">
+    <img src="https://cf3.s3.souqcdn.com/item/2018/05/08/34/04/83/26/item_XL_34048326_132698850.jpg" width="200px"
+        hight="200px" /> <br /> <br /> <br />
+
+
+    <table align="center" width="90%" border="1" cellspacing="15" cellpadding="20">
+        <tr>
+            <th colspan="2">
+                Lips Product
+            </th>
+        </tr>
+        <tr>
+            <td align="left">
+                type
+            </td>
+            <td align="left">
+                Lipstick
+                </td">
+        </tr>
+        <tr>
+            <td align="left">
+                price
+            </td>
+            <td align="left">
+                130$ <del>265$</del>
+                </td">
+        </tr>
+        <tr>
+            <td align="left">
+                Brand
+            </td>
+            <td align="left">
+                Pupa Milano I'M Pure Color Absolute Brightness Lipstick 110 Delicate Nude, 3.5 g
+
+                </td">
+        </tr>
+        <tr>
+            <td align="left">
+                Description
+            </td>
+            <td align="left">
+                The color of this lipstick is full thanks to the concentration of pigments for an intense and
+                homogeneous release right from first application. I’m melts perfectly on your lips and makes them soft
+                bright and well defined. Lightweight and flawless on the lips
+                </td">
+        </tr>
+    </table>
+    <input type="button" value="buy it" onclick="buy()" />
+    <script>
+
+        function buy() {
+
+            var y = window.confirm("Are you sure to buy the product ? ")
+            if (y == true) {
+
+
+                prompt("please enter your phone ", "number",);
+
+
+                alert("We Will Call You")
+
+            }
+            else {
+                alert("We Are Always At Your Service")
+
+            }
+        }
+
+
+
+    </script>
+    <script src="main.js"></script>
+    <script src="home.js"></script>
+
+</BODY>
+
+</HTML>
